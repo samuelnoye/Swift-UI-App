@@ -30,7 +30,7 @@ struct ContentView: View {
          Mark 1    BASIC
         //  AsyncImage(url: URL(string: imageURL))
         
-        // Mark 2    SCALE
+         Mark 2    SCALE
         //  AsyncImage(url: URL(string: imageURL), scle:3.0)
         
         // Mark 3    PLACEHOLDER
