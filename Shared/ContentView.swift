@@ -17,7 +17,7 @@ extension Image{
         self
             .imageModifier()
             .frame(maxWidth: 128)
-            .foregroundColor(.red)
+            .foregroundColor(.purple)
             .opacity(0.5)
     }
 }
