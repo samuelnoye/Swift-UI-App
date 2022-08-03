@@ -68,7 +68,7 @@ struct ContentView: View {
         
             switch phase {
             case .success(let image):
-                image.imageModifier()
+               // image.imageModifier()
                     .transition(.scale)
             case .failure(_): Image(systemName: "ant.circle.fill").iconModifier()
             case .empty: Image(systemName: "photo.circle.fill").iconModifier()
