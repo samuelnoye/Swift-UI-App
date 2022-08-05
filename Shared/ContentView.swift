@@ -10,7 +10,7 @@ import SwiftUI
 extension Image{
     func imageModifier()->some View {
         self
-       //     .resizable()
+            .resizable()
             .scaledToFit()
     }
     func iconModifier()-> some View {
