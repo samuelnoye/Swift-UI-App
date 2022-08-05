@@ -16,7 +16,7 @@ extension Image{
     func iconModifier()-> some View {
         self
             .imageModifier()
-            .frame(maxWidth: 300)
+            .frame(maxWidth: 128)
             .foregroundColor(.purple)
             .opacity(0.5)
     }
